@@ -1,6 +1,19 @@
+## Description
+
+This memory game was created using React. The goal of the game is to click on each image and find the pairs.
+
+## Init the project
+
+### `npm install`
+
+Install all the dependencies needed to run the project.
+
+## Run the project
+
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
 
 
