@@ -15,14 +15,13 @@ const StartComponent: React.FC = () => {
         <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: '100vh' }}>
             <Row className="text-center">
                 <Col>
-                    <h1 className="display-2 font-weight-normal">Memory Game</h1>
-                    <img src="../assets/mariocart.png" alt="Logo" />
+                    <h1 className="display-2 font-weight-normal">Secret Memory Game</h1>
                     <Form onSubmit={handleSubmit}>
                         <Form.Group controlId="formFirstName">
-                            <Form.Label className='mb-3'>Enter your name</Form.Label>
+                            <Form.Label className='mb-3'>Enter your first name</Form.Label>
                             <Form.Control
                                 type="text"
-                                placeholder="Enter your first name"
+                                placeholder="first name"
                                 value={firstName}
                                 onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFirstName(e.target.value)}
                                 required
