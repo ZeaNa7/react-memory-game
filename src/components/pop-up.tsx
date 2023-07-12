@@ -14,15 +14,14 @@ const Popup: React.FC<PopupProps> = ({ isOpen, onClose, restart, number }) => {
     }
 
     return (
-        <Modal show={isOpen} onHide={onClose} backdrop="static" keyboard={false} >
+        <Modal show={isOpen} onHide={onClose} backdrop="static" keyboard={false}>
             <Modal.Header closeButton>
-                <Modal.Title className='text-center'>Memory Game</Modal.Title>
             </Modal.Header>
             <Modal.Body className='text-center'>
                 <p>Congratulation ! You won with {number} attempt(s)</p>
                 <p>Do you want to restart the game?</p>
             </Modal.Body>
-            <Modal.Footer className='text-center'>
+            <Modal.Footer className='text-center d-flex justify-content-center'>
                 <Button variant="secondary" onClick={onClose}>
                     No
                 </Button>

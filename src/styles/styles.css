@@ -1,31 +1,17 @@
-.app{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    /* background-color: red; */
-    /* overflow: hidden; */
+body, html {
+    overflow: hidden;
 }
 
-.card {
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    box-shadow: 2px 2px 4px 4px #DEDEDE;
-    transition: 0.3s;
-    transform-style: preserve-3d;
-    position: relative;
-    cursor: pointer;
+.back {
+    height: 100vh;
+    background-color: #3c4eaa;
 }
-
-
 
 .title {
     font-size: 4rem;
     font-family: 'Lucida Sans';
     font-weight: 600;
-    margin: 20px 0;
-    color: white;
+    color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
 }

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import bowser from '../assets/peach.jpeg';
 import mario from '../assets/mario.jpeg';
 import todd from '../assets/todd.jpeg';
@@ -92,14 +91,15 @@ const Game: React.FC = () => {
     }, []);
 
     return (
-        <div className='app'>
+        <div className="back">
             <div className="container">
-                <h1 className="title">Memory Game</h1>
-                <div className="d-flex justify-content-center">
-                    <div className="d-flex align-items-center gap-4">
-                        <div className="score mb-3 fs-5">Player: {firstName}</div>
-                        <div className="score  mb-3 fs-5">Score: {attempts}</div>
-                    </div>
+                <div className='title'>
+                <h1 className="text-center pt-3">Mario's Memory Game</h1>
+                </div>
+                <div className="d-flex justify-content-between p-1">
+                        <div className="score mb-3 fs-5 text-light">👀 Player: {firstName}</div>
+                        <p>Find all of the pairs !</p>
+                        <div className="score  mb-3 fs-5 text-light">🥇 Score: {attempts}</div>
                 </div>
                 {/* CARDS */}
                 <div className="row row-cols-2 row-cols-md-4 g-4">
